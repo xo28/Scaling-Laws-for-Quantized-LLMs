@@ -1,5 +1,5 @@
-# Scaling-Laws-for-Quantized-LLMs
-## [📑[Paper link]](https://arxiv.org/pdf/2411.17691) [💽[Checkpoints]](https://huggingface.co/Xu-Ouyang) Low-bit quantization favors undertrained LLMs. Current LLM quantization algorithms may fail when the LLMs are fully trained.
+# Scaling-Laws-for-Quantized-LLMs <br> [📑[Paper link]](https://arxiv.org/pdf/2411.17691) [💽[Checkpoints]](https://huggingface.co/Xu-Ouyang) 
+## Low-Bit Quantization Favors Undertrained LLMs: Scaling Laws for Quantized LLMs with 100T Training Tokens.<br> Current LLM quantization algorithms may fail when the LLMs are fully trained.
 
 Low-bit quantization improves machine learning model efficiency but surprisingly favors undertrained large language models (LLMs). Larger models or those trained on fewer tokens exhibit less quantization-induced degradation (QiD), while smaller, well-trained models face significant performance losses.
 To gain deeper insights into this trend, we study over 1500+ quantized LLM checkpoints of various sizes and at different training levels (undertrained or fully trained) in a controlled setting, deriving scaling laws for understanding the relationship between QiD and factors: the number of training tokens, model size and bit width.
